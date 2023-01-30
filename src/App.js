@@ -2,7 +2,7 @@ import Timer from "./components/02-WhyILoveYou/Timer/Timer";
 import styles from "./App.module.css";
 import Navbar from "./components/01-Navbar/Navbar";
 import WhyILoveYou from "./components/02-WhyILoveYou/WhyILoveYou";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HowILoveYou from "./components/03-HowILoveYou/HowILoveYou";
 import HowIFuckYou from "./components/04-HowIFuckYou/HowIFuckYou";
 import { useState } from 'react';
@@ -16,7 +16,7 @@ const App = (props) => {
   const [writedPass, setWritedPass] = useState('')
   const [enterPass, setEnterPass] = useState('')
 
-  if (enterPass != mainPass) {
+  if (enterPass !== mainPass) {
     return (
       <div className={styles.app} style={{
         paddingTop: "300px",

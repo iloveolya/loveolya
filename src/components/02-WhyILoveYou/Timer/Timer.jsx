@@ -33,7 +33,7 @@ const Timer = ({ date1, date2 }) => {
   }, [tick2, finishTime2]);
 
   useEffect(() => {
-    const timerID = setInterval(() => setTick2(!tick), 1000);
+    const timerID = setInterval(() => setTick(!tick), 1000);
     return () => clearInterval(timerID);
   }, [tick]);
   useEffect(() => {
