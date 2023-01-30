@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/love-olya/static/css/main.3a2f2435.css",
-    "main.js": "/love-olya/static/js/main.987ad8dd.js",
-    "static/js/787.28cb0dcd.chunk.js": "/love-olya/static/js/787.28cb0dcd.chunk.js",
-    "static/media/serdechki.jpg": "/love-olya/static/media/serdechki.e3152335663cef918a81.jpg",
-    "index.html": "/love-olya/index.html",
-    "main.3a2f2435.css.map": "/love-olya/static/css/main.3a2f2435.css.map",
-    "main.987ad8dd.js.map": "/love-olya/static/js/main.987ad8dd.js.map",
-    "787.28cb0dcd.chunk.js.map": "/love-olya/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/loveolya/static/css/main.db30a7c0.css",
+    "main.js": "/loveolya/static/js/main.f484164a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/loveolya/static/js/787.28cb0dcd.chunk.js",
+    "static/media/serdechki.jpg": "/loveolya/static/media/serdechki.e3152335663cef918a81.jpg",
+    "index.html": "/loveolya/index.html",
+    "main.db30a7c0.css.map": "/loveolya/static/css/main.db30a7c0.css.map",
+    "main.f484164a.js.map": "/loveolya/static/js/main.f484164a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/loveolya/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a2f2435.css",
-    "static/js/main.987ad8dd.js"
+    "static/css/main.db30a7c0.css",
+    "static/js/main.f484164a.js"
   ]
 }
