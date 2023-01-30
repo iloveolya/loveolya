@@ -1,4 +1,4 @@
-import styles from "./WhyILoveYou.module.css";
+import styles from './WhyILoveYou.module.css';
 
 const WhyILoveYou = (props) => {
   return (
@@ -12,7 +12,7 @@ const WhyILoveYou = (props) => {
       </span>
       <br />
       <span>
-        Ты часто спрашиваешь меня, почему я тебя люблю или как я это понял, и
+        Ты чaсто спрашиваешь меня, почему я тебя люблю или как я это понял, и
         сейчас я пишу мини-сайт чтобы ответить на эти вопросы и заставить тебя
         улыбнуться.
       </span>
