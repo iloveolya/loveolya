@@ -14,7 +14,7 @@
 
 .underNavbar {
   /* background-color: #fadadd; */
-  padding-top: 155px;
+  padding-top: 185px;
 }
 
 .item {
@@ -38,5 +38,5 @@
 
 .jmai {
   color: red;
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
 }
