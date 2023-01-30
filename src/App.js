@@ -27,7 +27,8 @@ const App = (props) => {
           fontWeight: "500"
         }}>Пароль ннада...</div>
         <input value={writedPass} onChange={(event) => setWritedPass(event.currentTarget.value)} style={{
-          borderRadius: "5px"
+          borderRadius: "5px",
+          textAlign: "center"
         }} /><br />
         <button style={{
           marginTop: "10px",

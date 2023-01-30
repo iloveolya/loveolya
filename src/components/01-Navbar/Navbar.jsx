@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import { NavLink } from 'react-router-dom';
+import styles from './Navbar.module.css';
 
 const Navbar = (props) => {
   return (
@@ -21,15 +21,6 @@ const Navbar = (props) => {
           }
         >
           Как сильно я тебя люблю
-        </NavLink>
-        <br />
-        <NavLink
-          to="/TrainTrip"
-          className={(navData) =>
-            navData.isActive ? styles.active : styles.item
-          }
-        >
-          Пока я в поезде
         </NavLink>
         <br />
         <NavLink
