@@ -1,0 +1,28 @@
+.howIWantMakeYouHappy {
+  width: 90%;
+  text-align: center;
+  background-color: pink;
+  color: red;
+  margin-left: auto;
+  padding: 5px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  border: 2px solid red;
+  font-size: larger;
+}
+
+.howIWantMakeYouHappy img {
+  width: 80%;
+  border: 1px solid red;
+}
+
+.howIWantMakeYouHappy span {
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 100; */
+}
+
+.howIWantMakeYouHappy {
+  font-family: "Caveat", cursive;
+}

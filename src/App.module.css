@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  background-color: #fadadd;
+  height: 4000px;
+  background-image: url("./commons/serdechki.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.forever {
+  width: auto;
+  text-align: center;
+  color: red;
+  font-family: "Caveat", cursive;
+  font-size: xx-large;
+}

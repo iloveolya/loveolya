@@ -1,0 +1,79 @@
+.howIFuckYou {
+  width: 90%;
+  text-align: center;
+  background-color: black;
+  color: pink;
+  margin-left: auto;
+  padding: 5px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  border: 2px solid red;
+  font-size: larger;
+}
+
+button {
+  color: black;
+  background-color: pink;
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+  font-size: large;
+  border: 1px solid gray;
+}
+
+/* button:hover {
+  opacity: 0.6
+} */
+
+.howIFuckYou input {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.rotatedEmoji {
+  color: green;
+  filter: hue-rotate(235deg);
+}
+
+.howIFuckYou img {
+  width: 80%;
+  border: 1px solid red;
+}
+
+.howIFuckYou span {
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 100; */
+}
+
+.povestvovanie {
+  font-weight: 300;
+}
+
+.howIFuckYou h3 {
+  color: pink;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: 400;
+}
+
+.whatButton {
+  color: black;
+  background-color: pink;
+  border-radius: 20px;
+  width: 20%;
+  height: 30px;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+.lastSpan {
+  font-family: "Caveat", cursive;
+}
