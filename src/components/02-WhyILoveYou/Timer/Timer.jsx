@@ -43,21 +43,21 @@ const Timer = ({ date1, date2 }) => {
 
   return (
     <div className={styles.timer}>
-      <span>Через</span>
+      <span>Через:</span>
       <p className={styles.timerP}>{`${diffDays} ${
         diffDays === 2 ? 'дня' : diffDays === 1 ? 'день' : 'дней'
       } ${diffH.toString().padStart(2, '0')}:${diffM
         .toString()
         .padStart(2, '0')}:${diffS.toString().padStart(2, '0')}`}</p>
-      <span>я снова тебя поцелую, милая</span>
+      <span>я снова тебя поцелую, милая!</span>
       <br />
-      <span>А через</span>
+      <span>А ведь мы могли встретиться только через:</span>
       <p className={styles.timerP}>{`${diffDays2} ${
         diffDays2 === 2 ? 'дня' : diffDays2 === 1 ? 'день' : 'дней'
       } ${diffH2.toString().padStart(2, '0')}:${diffM2
         .toString()
         .padStart(2, '0')}:${diffS2.toString().padStart(2, '0')}`}</p>
-      <span>ты встретишь меня в Пятигорске)</span>
+      <span></span>
     </div>
   );
 };
