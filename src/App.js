@@ -9,7 +9,7 @@ import { useState } from 'react';
 import February from './components/039-February/February';
 
 const App = (props) => {
-  const date1 = new Date("Saturday, 11 Feb 2023 08:50:00")
+  const date1 = new Date("Saturday, 18 Feb 2023 08:50:00")
   const date2 = new Date("Saturday, 25 March 2023 08:50:00")
   // const date3 = new Date("Friday, 26 April 2023 22:21:00")
 
