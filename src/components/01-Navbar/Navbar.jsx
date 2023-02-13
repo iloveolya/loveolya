@@ -43,18 +43,23 @@ const Navbar = ({ date }) => {
         >
           Как сильно я тебя люблю
         </NavLink>
+        <br />
         <NavLink
-          to="/February"
+          to="/Posilka"
+          className={(navData) =>
+            navData.isActive ? styles.active : styles.item
+          }
+        >
+          Посылка
+        </NavLink>
+        <NavLink
+          to="/Cube"
           className={(navData) =>
             navData.isActive ? styles.active : styles.item
           }
         >
           <br />
-          Всего через{' '}
-          {`${diffDays} ${
-            diffDays === 2 ? 'дня' : diffDays === 1 ? 'день' : 'дней'
-          }`}{' '}
-          я буду рядом
+          "КуБиК"
         </NavLink>
         <br />
         <NavLink

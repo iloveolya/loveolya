@@ -1,4 +1,4 @@
-.howIWantMakeYouHappy {
+.posilka {
   width: 90%;
   text-align: center;
   background-color: pink;
@@ -13,16 +13,11 @@
   font-size: larger;
 }
 
-.howIWantMakeYouHappy img {
-  width: 80%;
+.posilka input {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
   border: 1px solid red;
-}
-
-.howIWantMakeYouHappy span {
-  font-family: 'Roboto', sans-serif;
-  /* font-weight: 100; */
-}
-
-.howIWantMakeYouHappy {
-  font-family: 'Caveat', cursive;
 }

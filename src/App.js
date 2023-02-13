@@ -6,7 +6,9 @@ import { Routes, Route } from "react-router-dom";
 import HowILoveYou from "./components/03-HowILoveYou/HowILoveYou";
 import HowIFuckYou from "./components/04-HowIFuckYou/HowIFuckYou";
 import { useState } from 'react';
-import February from './components/039-February/February';
+import Cube from './components/06-Cube/Cube';
+import PosilkaContainer from './components/Posilochka/PosilkaContainer';
+// import February from './components/039-February/February';
 
 const App = (props) => {
   const date1 = new Date("Saturday, 18 Feb 2023 08:50:00")
@@ -44,7 +46,9 @@ const App = (props) => {
       <Routes>
         <Route path="/WhyILoveYou" element={<WhyILoveYou />} />
         <Route path="/HowILoveYou" element={<HowILoveYou />} />
-        <Route path="/February" element={<February date={date1} />} />
+        <Route path="/Cube" element={<Cube />} />
+        <Route path="/Posilka" element={<PosilkaContainer />} />
+        {/* <Route path="/February" element={<February date={date1} />} /> */}
         <Route path="/HowIFuckYou" element={<HowIFuckYou />} />
       </Routes>
       <div className={styles.forever}>12.08.22 - навсегда</div>
