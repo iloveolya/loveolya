@@ -21,3 +21,75 @@
   border-radius: 5px;
   border: 1px solid red;
 }
+
+.obertka {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.obertka h4 {
+  margin: 10px;
+}
+
+.obertka2 {
+  border: 1px solid red;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.obertka2 h4 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.obertka2 p {
+  margin-bottom: 7px;
+}
+
+.obertka2 .smallP {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.smallPContainer {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.iFont {
+  font-family: 'Caveat', cursive;
+}
+
+.iFont h3 {
+  margin-bottom: 10px;
+}
+.iFont h4 {
+  margin-top: 10px;
+}
+
+.posilkaContent button {
+  color: red;
+  background-color: rgb(255, 169, 183);
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+  font-size: large;
+  border: 1px solid red;
+  margin-bottom: 20px;
+}

@@ -50,7 +50,7 @@ const Navbar = ({ date }) => {
             navData.isActive ? styles.active : styles.item
           }
         >
-          Посылка
+          Мы вместе уже...
         </NavLink>
         <NavLink
           to="/Cube"

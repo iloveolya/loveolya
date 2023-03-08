@@ -6,17 +6,17 @@ import PosilkaContent from './PosilkaContent';
 function PosilkaContainer() {
   const [access, setAccess] = useState(0);
 
-  if (access === 0) {
-    return (
-      <div className={styles.posilka}>
-        <Password setAccess={setAccess} />
-      </div>
-    );
-  }
+  // if (access === 0) {
+  //   return (
+  //     <div className={styles.posilka}>
+  //       <Password setAccess={setAccess} />
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className={styles.posilka}>
-      <PosilkaContent />
+      <PosilkaContent currentTime={new Date()} />
     </div>
   );
 }
