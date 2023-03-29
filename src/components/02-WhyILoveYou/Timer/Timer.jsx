@@ -30,7 +30,7 @@ const Timer = ({ date1, date2 }) => {
       } ${diffH.toString().padStart(2, '0')}:${diffM
         .toString()
         .padStart(2, '0')}:${diffS.toString().padStart(2, '0')}`}</p>
-      <span>мы будем рядышком!</span>
+      <span>мы встретимся в Пятигорске 🥺</span>
     </div>
   );
 };

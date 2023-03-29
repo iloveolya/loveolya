@@ -11,7 +11,7 @@ import PosilkaContainer from './components/Posilochka/PosilkaContainer';
 // import February from './components/039-February/February';
 
 const App = (props) => {
-  const date1 = new Date("Saturday, 19 Mar 2023 08:50:00")
+  const date1 = new Date("26 Apr 2023 21:21:00")
   // const date3 = new Date("Friday, 26 April 2023 22:21:00")
 
   // const mainPass = "12082022"
