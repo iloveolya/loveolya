@@ -5,7 +5,7 @@ import WhyILoveYou from "./components/02-WhyILoveYou/WhyILoveYou";
 import { Routes, Route } from "react-router-dom";
 import HowILoveYou from "./components/03-HowILoveYou/HowILoveYou";
 import HowIFuckYou from "./components/04-HowIFuckYou/HowIFuckYou";
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import Cube from './components/06-Cube/Cube';
 import PosilkaContainer from './components/Posilochka/PosilkaContainer';
 // import February from './components/039-February/February';
@@ -16,7 +16,7 @@ const App = (props) => {
 
   // const mainPass = "12082022"
 
-  const [loveMe, setLoveMe] = useState(0)
+  // const [loveMe, setLoveMe] = useState(0)
 
   // if (loveMe !== 1) {
   //   return (
