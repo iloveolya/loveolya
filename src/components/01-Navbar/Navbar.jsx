@@ -4,7 +4,7 @@ import styles from './Navbar.module.css';
 
 const Navbar = ({ date }) => {
   const [finishTime] = useState(date.getTime());
-  const [[diffDays, diffH, diffM, diffS], setDiff] = useState([0, 0, 0, 0]);
+  // const [[diffDays, diffH, diffM, diffS], setDiff] = useState([0, 0, 0, 0]);
   const [tick, setTick] = useState(false);
 
   useEffect(() => {
